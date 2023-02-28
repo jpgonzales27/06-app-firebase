@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { db } from "../firebase/firebaseConfig";
+// import { db } from "../firebase/firebaseConfig";
 
-const Contacto = ({ nombre, correo }) => {
+const Contacto = ({ id, nombre, correo }) => {
   const [editandoTarea, setEditandoTarea] = useState(false);
   return (
     <ContenedorContacto>
